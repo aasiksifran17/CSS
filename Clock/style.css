@@ -1,0 +1,18 @@
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient( #f06, #4a90e2);
+    font-family: 'Arial', sans-serif;
+}
+.clock {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px  rgba(44, 44, 44, 0.2);
+    color: #fff;
+    font-size: 90px;
+    text-align: center;
+}
