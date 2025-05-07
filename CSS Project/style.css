@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 65%;
+    margin: 50px;
+    border-radius: 20px;  
+}
+
+.container .leftside{
+    background-color: #51A687;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+.container .rightside{
+    background-color: rgb(255, 255, 255);   
+}
+
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #00ffa6;
+    
+}
+
+.profile img{
+    width: 150px;
+    height: 150px;
+    border-radius: 60%;
+    margin: 10px; 
+    color: #0e043b;
+    box-shadow: 5px 0px 5px #00ffa6;  
+}
+
+.profile h3,span{
+    color: #E3FFF5;   
+}
+
+
+
+.contact{
+    padding: 20px;
+}
+
+.contact h4{
+    color: #E3FFF5;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.contact_link{
+    text-decoration: none;
+    color: #E3FFF5;
+}
+
+.contact ul{
+    list-style: none;
+}
+
+.icon{
+    color: #0e043b;
+    margin-right: 10px;
+    font-size: 18px;
+    text-align: left;
+}
+
+
+.education{
+    
+    padding: 20px;
+    color: #E3FFF5;
+}
+
+.education ul{
+    list-style: none;
+    margin: 10px;
+}
+
+.education p,i{
+    color: #0e043b;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.languages{
+    padding: 20px;
+    color: #E3FFF5;
+}
+
+.text{
+    color: #0e043b;
+    padding: 10px;
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.language-skill {
+    width: 250px;
+    color: #0e043b;
+    padding: 10px;
+    
+    
+  }
+  
+  .language-skill p {
+    
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    height: 10px;
+  }
+  
+  .progress {
+    height: 100%;
+    background-color: #049e09;
+    border-radius: 10px
+  }
+
+  /* Personal Information End */
+
+  .container .rightside{
+    background-color: #d6d6d6;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.Profile{
+    padding: 20px;
+    margin-top: 10px;
+    text-align: justify;    
+}
+
+span{
+    color: #0e043b;
+    font-weight: bold;
+
+    
+}
+
+.Experience{
+    padding: 20px;
+    text-align: justify;
+}
+
+.Experience .box{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    text-align: justify;
+    
+}
+
+.Experience .box .Company{
+    min-width: 200px;
+}
+
+/* Experience End */
+
