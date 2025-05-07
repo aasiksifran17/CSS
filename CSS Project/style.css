@@ -20,6 +20,7 @@ body{
     width: 65%;
     margin: 50px;
     border-radius: 20px;  
+    box-shadow: 5px 5px 5px 0px #000000;
 }
 
 .container .leftside{
@@ -177,7 +178,21 @@ span{
 
 .Experience .box .Company{
     min-width: 200px;
+    font-weight: bold;
 }
 
 /* Experience End */
+
+
+.interest ul{
+   list-style: none;
+   display: grid;
+   grid-template-columns: repeat(4,1fr);
+   margin-top: 20px;
+   color: #0e043b;
+   font-weight: bold;
+   
+}
+
+
 
